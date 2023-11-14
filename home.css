@@ -87,7 +87,7 @@ button{
     font-weight: bold;
     border: 2px solid rgb(123, 98, 9);
     background: transparent;
-    color: white;
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -101,7 +101,7 @@ a{
 }
 
 span{
-    background: rgba(82, 65, 4, 0.81);
+    background: rgba(159, 107, 52, 0.912);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -178,13 +178,22 @@ button:hover span{
     width: 100%;
     position: absolute;
     margin-top: 30px;
-
+background-size: cover;
+background-position: center;
     text-align: center;
     color: black;
     padding: 10px;
     font-size: 20px;
     background-color: rgb(237, 231, 220);
+    transform: translateY(-0.5%);
 }
+.button2{
+display: flex;
+justify-content: space-between;
+
+
+}
+
 
 .p2 h2{
     text-align: center;
@@ -232,7 +241,7 @@ button:hover span{
 
 }
 .button2 span{
-    background: rgba(82, 65, 4, 0.81);
+    background: rgba(211, 107, 9, 0.81);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -242,6 +251,7 @@ button:hover span{
     z-index: -1;
     transition: 0.5s;
     margin-top: 100px;
+    
     /* margin-right: -100px; */
 }
 .button2 :hover span{
