@@ -1,0 +1,66 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 20px;
+    line-height: 200%;
+    width: cover;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    height: max-content;
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}

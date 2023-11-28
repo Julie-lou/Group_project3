@@ -14,6 +14,17 @@
         background-repeat: no-repeat;
         
 }
+#credit{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-right: 0 5px;
+    width: fit-content;
+    background-color: gray;
+    opacity: 60%;
+    position: relative;
+    top: -25px;
+}
 
 .navbar{
     width: 85%;
@@ -25,7 +36,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 50px;
+    width: fit-content;
     height: 50px;
     cursor: pointer;
     padding-left: 0px;
@@ -190,8 +201,12 @@ background-position: center;
 .button2{
 display: flex;
 justify-content: space-between;
+color: black;
 
 
+}
+.button2 a{
+    color: black;
 }
 
 
@@ -320,6 +335,7 @@ main {
     font-family: sans-serif;  
     margin-top: 650px;
     line-height: 250%;
+    
 
 }
 
@@ -338,23 +354,30 @@ input, textarea {
     padding: 10px;
     
 }
+
 textarea {
     max-width: 50vh;
     min-width: 50vh;
-    min-height: 30px;
+    min-height: 100px;
+    height: 60px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: rgb(255, 123, 0);
     width: 50vh;
+    height: fit-content;
     color: aliceblue;
-    padding: 5px;
     border: 1px solid orangered;
     border-radius: 10px;
+    margin-top: 0;
 
 }
+button img{
+    position: relative;
+    top: 8px;
+}
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: white;
     color: orangered;
     border: 1px solid orangered;
@@ -389,3 +412,65 @@ img{
 }
 
 
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 15px;
+    line-height: 200%;
+    width: cover;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    /* height: max-content; */
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}
